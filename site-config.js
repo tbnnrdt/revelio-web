@@ -9,7 +9,7 @@ module.exports = {
   path_prefix           : "/",                                                    // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
   app_name              : "Revelio",
   app_price             : "Free",
-  app_description       : "Keep track of the movie you've seen.",
+  app_description       : "Keep track of the movies you've seen",
   app_keywords          : ["movie", "theater", "revelio", "revelioapp", "automatic", "gatsbyjs", "app", "landing page"],
 
   // Personal Info
@@ -29,19 +29,19 @@ module.exports = {
     {
       title: "Watched",
       description:
-        "Organize all the movies you have watched in one place.",
+        "Keep track of all the movies you've seen in one place",
       fontawesome_icon_name: "magic",
     },
     {
       title: "Watchlist",
       description:
-        "Easily remember which movie you want to see next.",
+        "Identify the movies you want to see in your watchlist",
       fontawesome_icon_name: "eye",
     },
     {
       title: "Advanced search",
       description:
-        "Find new movies to watch later.",
+        "Find & save the movies you want to see next",
       fontawesome_icon_name: "search",
     },
   ],
