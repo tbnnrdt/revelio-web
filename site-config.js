@@ -1,9 +1,9 @@
 module.exports = {
   // App Info
   appstore_link         : "https://itunes.apple.com/fr/app/revelio-app/id1458707210",                                  // Enter App Store URL.
-  playstore_link        : null,                                  // Enter Google Play Store URL.
+  playstore_link        : "https://play.google.com/store/apps/details?id=com.tomhouse.myMovieDB",                                  // Enter Google Play Store URL.
   google_analytics_ID   : "UA-40324261-2",                                        // Enter Google Analytics ID or ""
-  presskit_download_link: "https://imedadel.me",                                  // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+  presskit_download_link: null,                                  // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
   video_or_screenshot   : "screenshot",                                           // "screenshot" or "video"
   app_url               : "https://get-revelio-app.com",                            // Domain of your website without path_prefix.
   path_prefix           : "/",                                                    // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
