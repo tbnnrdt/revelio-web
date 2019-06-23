@@ -12,7 +12,6 @@ import configs from "../../site-config"
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" keywords={configs.app_keywords} />
-
     <div
       className="imageWrapper"
       style={{
@@ -43,7 +42,17 @@ const IndexPage = ({ data }) => (
                 />
               </div>
               <p className="headerName">{configs.app_name}</p>
+
             </div>
+            <nav>
+              <ul>
+                <li className="producthunt">
+                <a href="https://www.producthunt.com/posts/revelio?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-revelio" target="_blank">
+                  <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=158569" alt="Revelio - Keep track of the movies you've seen | Product Hunt Embed" width="250px" height="54px" />
+                </a>
+                </li>
+              </ul>
+            </nav>
           </header>
           <div
             className="iphonePreview"

@@ -65,7 +65,7 @@ export default createGlobalStyle`
     position: unset !important;
     height: 0 !important;
     display: block !important;
-    
+
   }
   .headerImage > div{
     padding-bottom: 0 !important;
@@ -297,6 +297,10 @@ export default createGlobalStyle`
     .playStore {
       margin-right: 0px;
       margin-bottom: 24px;
+    }
+
+    nav > ul > li.producthunt {
+      display: none;
     }
   }
 
