@@ -38,6 +38,12 @@ module.exports = {
         trackingId: configs.google_analytics_ID
       }
     },
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+          pixelId: configs.facebook_pixel_ID,
+      }
+    },
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
